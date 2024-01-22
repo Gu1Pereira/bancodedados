@@ -13,3 +13,13 @@ tipo de banco de dados: relacional - pois eles se relacionam.
 
 **linha ou tupla:** Ela é o registro de tabelas 
 
+
+
+# trabalhando com SQL
+
+## conectando
+
+ mysql -h localhost -u root - p
+ -h = local que vai conectar
+ -u = usuario
+ -p = senha
