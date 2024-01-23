@@ -23,37 +23,37 @@ tipo de banco de dados: relacional - pois eles se relacionam.
 
 ## conectando
 
- mysql -h localhost -u root - p
+conectar no servidor de banco de dados: `mysql -h localhost -u root - p`
  
- -h = local que vai conectar
+ `-h (localhost)` = local que vai conectar
  
- -u = vai informar o usuario
+ `-u (root)` = vai informar o usuario
 
- root = nome do usuario
+ `root` = nome do usuario
  
- -p = senha
+` -p` = senha
  
- /h = ajuda
+ `/h `= ajuda
  
- /c = limpa
+ `/c` = limpa
 
-show datanabases; = mostra todos os bancos de dados
+`show datanabases;` = mostra todos os bancos de dados
 
-drop database (bd_jogos) = apaga o banco de dados selecionado
+`drop database (bd_jogos)` = apaga o banco de dados selecionado
  
-create database = cria um banco de dados(deve ser selecionado)
+`create database` = cria um banco de dados(deve ser selecionado)
 
 int e varchar = 
 
-desc jogos = mostra a estrutura da tabela
+`desc jogos` = mostra a estrutura da tabela
 
 quando tiver "show" sera no plural, tables e databases
 
 aspas simples sempre quando for varchar(texto)
 
-  insert into jogos(id, nome, quantidade, tempo_medio_min) value(100,'Truco', '6' ,20);
+ ` insert into jogos(id, nome, quantidade, tempo_medio_min) value(100,'Truco', '6' ,20);`
 
-  select * from jogos;
+  `select * from jogos;`
 
   +------+-------+------------+-----------------+
 | id   | nome  | quantidade | tempo_medio_min |
