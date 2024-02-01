@@ -35,7 +35,7 @@ conectar no servidor de banco de dados: `mysql -h localhost -u root - p`
  
  `/h `= ajuda
  
- `/c` = limpa
+ `/!cls` = limpa
 
 `show datanabases;` = mostra todos os bancos de dados
 
@@ -46,6 +46,12 @@ conectar no servidor de banco de dados: `mysql -h localhost -u root - p`
 int e varchar = 
 
 `desc jogos` = mostra a estrutura da tabela
+
+`delete from` = apaga todo mundo, necessita especificar
+
+`delete from where id >2;` = apaga o id que for maior do que 2
+
+`update vendedores set nome='jhon' where id = 2;` = altera 
 
 quando tiver "show" sera no plural, tables e databases
 
