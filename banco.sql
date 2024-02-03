@@ -30,3 +30,4 @@ update vendedores set nome='jhon' where id = 2;
 -- filtrar, escolher um em especifico
 
 select * from vendedores where id = 2;
+
