@@ -37,7 +37,7 @@ conectar no servidor de banco de dados: `mysql -h localhost -u root - p`
  
  `/!cls` = limpa
 
-`show datanabases;` = mostra todos os bancos de dados
+`show databases;` = mostra todos os bancos de dados
 
 `drop database (bd_jogos)` = apaga o banco de dados selecionado
  
